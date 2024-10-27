@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/friendsFragment">
+
+    <fragment
+        android:id="@+id/friendsFragment"
+        android:name="com.example.locationsharingapp_dipti_ict_amad_l4_04_14.FriendsFragmentDipti14"
+        android:label="fragment_friends"
+        tools:layout="@layout/fragment_friends_dipti14" >
+        <action
+            android:id="@+id/action_friendsFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_friendsFragment_to_profileFragment2"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_friendsFragment_to_profileFragment3"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_friendsFragment_to_profileFragment4"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.locationsharingapp_dipti_ict_amad_l4_04_14.ProfileFragmentDipti14"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile_dipti14" >
+
+    </fragment>
+</navigation>
